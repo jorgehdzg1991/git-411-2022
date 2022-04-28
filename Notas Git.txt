@@ -43,3 +43,14 @@ ELIMINACION DE RAMAS
 	- git branch -d mi-rama-2
 3. Borramos la rama remota
 	- git push origin --delete mi-rama-2
+
+INTEGRACION DE CAMBIOS DE UNA RAMA A OTRA
+1. Actualizar ambas ramas (la recibe cambios, y la los contiene)
+	- git fetch
+	- git pull
+	* Nota: repetir estos dos comandos en cada una de las ramas
+2. Nos cambiamos a la rama que va a recibir los cambios
+	- git checkout "<NOMBRE_RAMA_QUE_RECIBE_CAMBIOS>"
+	* Nota: Para estar seguros, podemos ejecutar git status
+3. Integramos los cambios de la rama que los contiene
+	- git merge "<NOMBRE_RAMA_CON_CAMBIOS>"
