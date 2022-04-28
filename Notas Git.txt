@@ -19,3 +19,12 @@ Pasos para subir cambios:
 	- git commit -m "MENSAJE"
 3. Sincronizamos la rama remota con los cambios en la rama local
 	- git push
+
+Pasos para descargar cambios desde la rama remota:
+1. Actualizamos el historial de commits localmente
+	- git fetch
+2. Sincronizamos la rama local con los cambios en la rama remota
+
+
+CREACION DE RAMAS
+Una rama es una subdivision de otra rama a partir de cierto punto.
