@@ -56,7 +56,7 @@ INTEGRACION DE CAMBIOS DE UNA RAMA A OTRA
 	- git merge "<NOMBRE_RAMA_CON_CAMBIOS>"
 
 RESOLUCION DE CONFLICTOS
-<supongamos que esto es un error>
+
 Hay 2 estrategias:
 1. Merge commit
 	- Hay que resolver conflictos al momento de hacer el merge
