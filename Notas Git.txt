@@ -54,3 +54,14 @@ INTEGRACION DE CAMBIOS DE UNA RAMA A OTRA
 	* Nota: Para estar seguros, podemos ejecutar git status
 3. Integramos los cambios de la rama que los contiene
 	- git merge "<NOMBRE_RAMA_CON_CAMBIOS>"
+
+RESOLUCION DE CONFLICTOS
+
+Hay 2 estrategias:
+1. Merge commit
+	- Hay que resolver conflictos al momento de hacer el merge
+2. Rebase y luego merge
+	- Rebase cambia el punto de partida de la rama
+	- Al hacer rebase resolvemos conflictos
+	- Para terminar el rebase hay que hacer un "force push"
+	- Una vez terminado el rebase, podemos hacer merge sin conflictos
